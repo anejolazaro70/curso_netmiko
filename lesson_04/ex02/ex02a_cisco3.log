@@ -1,0 +1,13 @@
+
+
+cisco3#terminal width 511
+cisco3#terminal length 0
+cisco3#
+cisco3#dir flash:test-jall.txt
+%Error opening bootflash:/test-jall.txt (No such file or directory)
+cisco3#copy flash:testx.txt flash:test-jall.txt
+Destination filename [test-jall.txt]? 
+Copy in progress...C
+21 bytes copied in 0.024 secs (875 bytes/sec)
+cisco3#
+cisco3#exit

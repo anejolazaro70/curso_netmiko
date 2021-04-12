@@ -1,0 +1,20 @@
+
+
+
+cisco3#terminal width 511
+cisco3#terminal length 0
+cisco3#
+cisco3#telnet 10.220.88.22
+Trying 10.220.88.22 ... Open
+
+
+User Access Verification
+
+Username: pyclass
+Password: 
+
+cisco3#exit
+
+[Connection to 10.220.88.22 closed by foreign host]
+cisco3#
+cisco3#exit

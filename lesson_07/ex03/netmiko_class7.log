@@ -1,0 +1,14 @@
+2021-03-25 10:38:58,619 INFO paramiko.transport Connected (version 2.0, client OpenSSH_7.5)
+2021-03-25 10:39:00,813 INFO paramiko.transport Auth banner: b'User Access Verification\n'
+2021-03-25 10:39:00,814 INFO paramiko.transport Authentication (password) failed.
+2021-03-25 10:39:01,175 INFO paramiko.transport Connected (version 2.0, client OpenSSH_7.5)
+2021-03-25 10:39:01,452 INFO paramiko.transport Auth banner: b'User Access Verification\n'
+2021-03-25 10:39:01,452 INFO paramiko.transport Authentication (password) successful!
+2021-03-25 10:41:05,544 ERROR __main__ Send out an error message
+2021-03-25 10:41:05,544 INFO __main__ Send out an info message
+2021-03-25 10:41:11,029 INFO paramiko.transport Connected (version 2.0, client OpenSSH_7.5)
+2021-03-25 10:41:13,806 INFO paramiko.transport Auth banner: b'User Access Verification\n'
+2021-03-25 10:41:13,807 INFO paramiko.transport Authentication (password) failed.
+2021-03-25 10:41:14,234 INFO paramiko.transport Connected (version 2.0, client OpenSSH_7.5)
+2021-03-25 10:41:14,564 INFO paramiko.transport Auth banner: b'User Access Verification\n'
+2021-03-25 10:41:14,565 INFO paramiko.transport Authentication (password) successful!

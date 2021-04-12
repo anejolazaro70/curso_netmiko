@@ -1,0 +1,40 @@
+
+
+
+cisco3#terminal width 511
+cisco3#terminal length 0
+cisco3#
+cisco3#
+cisco3#ssh -l pyclass 10.220.88.31
+Password: 
+Last login: Sun Apr 11 09:19:31 2021 from 10.220.88.22
+arista4#terminal width 511
+Width set to 511 columns.
+arista4#terminal length 0
+Pagination disabled.
+arista4#
+arista4#
+arista4#
+arista4#
+arista4#
+arista4#
+arista4#
+arista4#
+arista4#
+arista4#show version
+Arista vEOS
+Hardware version:    
+Serial number:       
+System MAC address:  00ac.fc59.97f2
+
+Software image version: 4.20.10M
+Architecture:           i386
+Internal build version: 4.20.10M-10040268.42010M
+Internal build ID:      68f3ae78-65cb-4ed3-8675-0ff2219bf118
+
+Uptime:                 105 weeks, 1 days, 14 hours and 41 minutes
+Total memory:           4010924 kB
+Free memory:            425680 kB
+
+arista4#
+arista4#exit

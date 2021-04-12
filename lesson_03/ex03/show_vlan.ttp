@@ -1,0 +1,3 @@
+<group>
+{{ vlan_id | DIGIT }} {{ name }} {{ vlan_status }} {{ ports | ORPHRASE }}
+</group>

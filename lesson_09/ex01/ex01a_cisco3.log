@@ -1,0 +1,36 @@
+
+
+
+cisco3#terminal width 511
+cisco3#terminal length 0
+cisco3#
+cisco3#
+cisco3#dir flash:/jall_ns_config.txt
+Directory of bootflash:/jall_ns_config.txt
+
+  119  -rw-              124   Apr 2 2021 02:41:03 -07:00  jall_ns_config.txt
+
+2908606464 bytes total (1783791616 bytes free)
+cisco3#
+cisco3#verify /md5 flash:/jall_ns_config.txt
+.Done!
+verify /md5 (bootflash:/jall_ns_config.txt) = da0091724abe2f0064bdc96dd3523c5d
+
+
+cisco3#copy flash:/jall_ns_config.txt system:running-config
+Destination filename [running-config]? 
+%Error: Removing name-server 1.1.1.1 
+%Error: Removing name-server 1.0.0.1 
+
+124 bytes copied in 0.020 secs (6200 bytes/sec)
+cisco3#
+cisco3#
+cisco3#
+cisco3#
+cisco3#show running-config | include ip domain name
+ip domain name lasthop.io
+cisco3#
+cisco3#show running-config | include ip name-server
+ip name-server 8.8.8.8 8.8.4.4
+cisco3#
+cisco3#exit

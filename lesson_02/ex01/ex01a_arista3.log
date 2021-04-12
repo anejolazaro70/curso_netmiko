@@ -1,0 +1,29 @@
+Last login: Wed Mar 17 08:48:53 2021 from 54.153.68.14
+
+terminal width 511
+terminal width 511
+arista3#terminal width 511
+Width set to 511 columns.
+arista3#terminal length 0
+Pagination disabled.
+arista3#
+arista3#
+arista3#
+arista3#
+arista3#
+arista3#
+arista3#
+arista3#
+arista3#
+arista3#
+arista3#
+arista3#
+arista3#show ip arp
+Address         Age (min)  Hardware Addr   Interface
+10.220.88.1           N/A  0062.ec29.70fe  Vlan1, Ethernet1
+10.220.88.23          N/A  502f.a8b1.6900  Vlan1, not learned
+10.220.88.34          N/A  00aa.7867.8f6b  Vlan1, not learned
+10.220.88.37          N/A  0001.00ff.0001  Vlan1, Ethernet1
+10.220.88.38          N/A  0002.00ff.0001  Vlan1, not learned
+arista3#
+arista3#exit

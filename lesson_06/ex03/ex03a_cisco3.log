@@ -1,0 +1,19 @@
+
+
+
+cisco3#terminal width 511
+cisco3#terminal length 0
+cisco3#
+cisco3#
+cisco3#
+cisco3#show users
+    Line       User       Host(s)              Idle       Location
+   1 vty 0     pyclass    idle                 00:04:04
+                                ec2-54-153-68-14.us-west-1.compute.amazonaws.com
+*  2 vty 1     pyclass    idle                 00:00:00
+                                ec2-54-153-68-14.us-west-1.compute.amazonaws.com
+
+  Interface    User               Mode         Idle     Peer Address
+
+cisco3#
+cisco3#exit

@@ -1,0 +1,7 @@
+<vars>
+PORT = "\S+.*"
+</vars>
+
+<group name="intf">
+{{ vlan_id }} {{ vlan_name }} {{ vlan_status }} {{ vlan_ports | ORPHRASE }}
+</group>

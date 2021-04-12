@@ -1,0 +1,20 @@
+
+
+cisco3#terminal width 511
+cisco3#terminal length 0
+cisco3#
+cisco3#copy flash:testx.txt flash:test-jall.txt
+Destination filename [test-jall.txt]? 
+%Warning:There is a file already existing with this name 
+Do you want to over write? [confirm]y
+Copy in progress...C
+21 bytes copied in 0.020 secs (1050 bytes/sec)
+cisco3#
+cisco3#dir flash:test-jall.txt
+Directory of bootflash:/test-jall.txt
+
+   70  -rw-               21  Mar 19 2021 05:05:13 -07:00  test-jall.txt
+
+2908606464 bytes total (1784115200 bytes free)
+cisco3#
+cisco3#exit

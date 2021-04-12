@@ -1,0 +1,212 @@
+
+Last login: Mon Apr 12 10:32:49 2021 from 54.153.68.14
+--- JUNOS 18.4R1.8 Kernel 64-bit  JNPR-11.0-20181207.6c2f68b_2_bu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+set cli screen-width 511
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> set cli screen-width 511 
+Screen width set to 511
+
+pyclass@vmx1> set cli complete-on-space off 
+Disabling complete-on-space
+
+pyclass@vmx1> set cli screen-length 0 
+Screen length set to 0
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> configure 
+Entering configuration mode
+
+
+[edit]
+pyclass@vmx1# 
+
+[edit]
+pyclass@vmx1# set system syslog archive size 110k files 3 
+
+[edit]
+pyclass@vmx1# set system time-zone America/New_York 
+
+[edit]
+pyclass@vmx1# 
+
+[edit]
+pyclass@vmx1# exit configuration-mode 
+Exiting configuration mode
+
+pyclass@vmx1> 
+
+pyclass@vmx1> 
+
+pyclass@vmx1> configure 
+Entering configuration mode
+
+
+[edit]
+pyclass@vmx1# 
+
+[edit]
+pyclass@vmx1# 
+
+[edit]
+pyclass@vmx1# commit comment "commit done by jall using netmiko" 
+commit complete
+
+[edit]
+pyclass@vmx1# 
+
+[edit]
+pyclass@vmx1# show system commit 
+
+[edit]
+pyclass@vmx1# exit

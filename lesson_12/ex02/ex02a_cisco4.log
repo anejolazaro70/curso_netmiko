@@ -1,0 +1,16 @@
+
+
+cisco4-testing#terminal width 511
+cisco4-testing#terminal length 0
+cisco4-testing#
+cisco4-testing#
+cisco4-testing#
+cisco4-testing#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+cisco4-testing(config)#
+cisco4-testing(config)#hostname cisco4
+cisco4(config)#end
+cisco4#
+cisco4#
+cisco4#
+cisco4#exit
